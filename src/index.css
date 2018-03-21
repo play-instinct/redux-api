@@ -1,5 +1,44 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: lightgray;
   font-family: sans-serif;
+}
+
+
+#root{
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  width: 50%;
+  background-color: white;
+}
+
+h2 {
+  font-family: 'Poller One', cursive;
+  color: darkgrey;
+}
+
+
+form, input, button {
+  font-family: 'Raleway';
+}
+
+input {
+  font-size: 24px;
+  width: 100%;
+    padding: 12px 10px;
+    border:  0px;
+    margin: 8px 0;
+    background-color: lightgrey;
+    color: white;
+    box-sizing: border-box;
+}
+
+button {
+  height: 30px;
+  border: 0px;
+  width: 100px;
+  background-color: darkgrey;
+  color: white;
 }

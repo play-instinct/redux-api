@@ -36,6 +36,7 @@ export class CharacterSearch extends React.Component {
     render() {
         return (
             <div className="character-search">
+            <h2>Star Wars Lookup</h2>
                 <form onSubmit={(e) => this.search(e)}>
                     <input type="search" ref={input => (this.input = input)} />
                     <button>Search</button>
