@@ -20,6 +20,13 @@ export class CharacterSearch extends React.Component {
         return <ul className="character-search-results">{characters}</ul>;
     }
 
+    search(e){
+        e.preventdefault();
+        let keyword = this.input.value;
+        this.props.dispatch(searchCharacters(keyword));
+
+    }
+
     render() {
         return (
             <div className="character-search">
